@@ -6,7 +6,7 @@ This package provides some simple tools for extracting information from these fi
 These scripts are tested on a Mac and should work on linux, but will probably cause problems on Windows except through the bash subsystem.
 
 To start, create a set of selected volume IDs from Hathi Trust.
-One good option is the [Workset Builder 2.0](https://solr2.htrc.illinois.edu/solr-ef) search interface.
+One good option is the [Workset Builder 2.0](https://solr2.htrc.illinois.edu/solr-ef) search interface (Note: this is an unsupported beta site that may or may not be available).
 Construct a search, and then download "Volume Metadata" in JSON format.
 As an example, I searched for volumes whose metadata contains `mexican war`.
 The page will save as `htrc-metadata-export.json`.
